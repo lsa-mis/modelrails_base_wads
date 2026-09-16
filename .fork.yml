@@ -1,0 +1,12 @@
+# Fork provenance — written by bin/fork. Do not gate on this file; live
+# state is derived from the repository. Committed so every clone inherits
+# the decisions: bin/setup reads `preset` into a teammate's .env, and
+# `template_baseline` answers "based on which template version?".
+---
+name: capstone_studio
+product_name: Capstone Studio
+preset: none
+template_url: git@github.com:lsa-mis/modelrails_base_wads.git
+template_baseline: cde265bbab3d748b8e90ea217c2dcb20a4a695b0
+forked_at: '2026-09-16'
+fork_script_version: 1.0.0
