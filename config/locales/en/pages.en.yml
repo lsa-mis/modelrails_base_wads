@@ -2,75 +2,73 @@ en:
   pages:
     home:
       hero:
-        title: "Build your SaaS faster"
-        subtitle: "A production-ready Rails 8.1 starter kit with authentication, workspaces, projects, and real-time collaboration built in."
-        cta_primary: "Get started"
-        cta_signed_in: "Go to your workspaces"
+        title: "Capstone Studio"
+        subtitle: "A capstone is a semester-long team project at the end of a degree: a real problem, a faculty advisor, a proposal the instructor accepts, and a finish in public. This is where a course runs one."
+        cta_primary: "Sign in"
+        cta_signed_in: "Go to your courses"
         cta_secondary: "View documentation"
       features:
-        title: "Everything you need"
-        subtitle: "Stop rebuilding the same infrastructure. Start with a solid foundation."
+        title: "What a course gets"
+        subtitle: "One course, its teams, and the record of what each team proposed and did."
         auth:
-          title: "Authentication"
-          description: "Email/password, Google and GitHub OAuth, email verification, password reset, and account locking — all built in."
+          title: "Sign in with a link"
+          description: "No passwords to reset. Students and staff sign in with a link sent to their campus email."
         workspaces:
-          title: "Workspaces"
-          description: "Multi-tenant workspaces with roles, permissions, invitations, and branding. Your workspace on sign-up."
+          title: "One space per course"
+          description: "Each course offering is its own space with its own staff, students, teams, and settings. Nothing leaks between courses."
         projects:
-          title: "Projects"
-          description: "Lightweight collaboration spaces with creator/editor/viewer roles, pinning, and project-level invitations."
+          title: "Teams form themselves"
+          description: "A student creates the team and adds teammates. Staff can open any team's page; students see only their own."
         resources:
-          title: "Resources"
-          description: "Polymorphic resource registry with Document support via Action Text. Add your own content types."
+          title: "Weekly notes in one place"
+          description: "Each team keeps its notes and files where the instructor and advisor can read them, with a record of who changed what."
         realtime:
-          title: "Real-time"
-          description: "Turbo Stream broadcasts on workspace and project changes. Your app feels native without writing JavaScript."
+          title: "Proposals with a status"
+          description: "A team registers its capstone and names an advisor, proposes it, and the instructor accepts it or sends it back. The status is always visible."
         security:
-          title: "Security"
-          description: "Pundit authorization, rate limiting, security headers, Pwned password checks, and sensitive data filtering."
+          title: "Staff see everything, students see their team"
+          description: "Instructors and TAs read every team in their course. A student sees their own team and nothing else."
       cta:
-        title: "Ready to build?"
-        subtitle: "Get started in minutes with a foundation that scales."
-        button: "Create your account"
+        title: "Running a course with a capstone?"
+        subtitle: "Courses are set up on request. Ask your department's team for one, and you will be invited to it."
+        button: "Sign in"
         signed_in:
           title: "Welcome back"
-          subtitle: "Pick up where you left off — your workspaces and projects are waiting."
-          button: "Go to your workspaces"
+          subtitle: "Your courses and teams are where you left them."
+          button: "Go to your courses"
     about:
       hero:
         title: "About Capstone Studio"
-        subtitle: "A multi-tenant SaaS starter kit that lets you focus on what makes your app unique."
+        subtitle: "A service for courses that end in a team project."
       mission:
-        title: "Our mission"
-        description: "Capstone Studio eliminates the months of boilerplate work that every SaaS application requires. Authentication, multi-tenancy, authorization, invitations, real-time updates — it's all here, tested, and ready to customize."
+        title: "What it is for"
+        description: "A capstone course asks teams of students to spend a semester on one real problem with a faculty advisor, propose it, get it accepted, and finish it in public. Instructors have been running that out of spreadsheets and shared mailboxes. Capstone Studio gives each course one place for its teams, their proposals, their advisors, and their weekly notes, with the instructor and TAs able to see all of it and students able to see their own team."
       features:
-        title: "What's included"
+        title: "What a course gets"
         items:
-          - "Email/password and OAuth authentication"
-          - "Workspace-based multi-tenancy with roles"
-          - "Project collaboration spaces"
-          - "Polymorphic resource system"
-          - "Real-time updates via Turbo Streams"
-          - "Pundit-based authorization"
-          - "Activity tracking and audit logging"
-          - "WCAG 2.2 AAA accessibility"
-          - "Full I18n internationalization"
-          - "Comprehensive test suite"
+          - "A space of its own, set up on request by the department"
+          - "Sign-in by campus email, no passwords"
+          - "Students form their own teams and add teammates"
+          - "A proposal per team, with an advisor the team names"
+          - "Accept or send back, with the status always visible"
+          - "Weekly notes and files kept with the team"
+          - "A record of who changed what, when"
+          - "Staff see every team; students see theirs"
+          - "Every page checked automatically at WCAG 2.2 AAA, light and dark"
       philosophy:
-        title: "Built on principles"
+        title: "How it is run"
         conventions:
-          title: "Conventions first"
-          description: "Rails generators, built-in auth, standard patterns. We deviate only after documented evaluation."
+          title: "One service, many courses"
+          description: "The department runs one application. A new course is a request to the service desk, who creates it and hands it to its instructor."
         accessibility:
-          title: "Accessibility is not optional"
-          description: "WCAG 2.2 AAA compliance. 7:1 contrast ratios, 44px touch targets, semantic HTML, keyboard navigation."
+          title: "Accessible by default"
+          description: "Every page the tests render is checked automatically at WCAG 2.2 AAA, in light and dark mode, before it ships."
         testing:
-          title: "Test-driven"
-          description: "Every feature built with strict TDD. Red-Green-Refactor. Tests verify behavior, not implementation."
+          title: "Tested before it reaches you"
+          description: "Every change runs the full test suite, including the accessibility audit, before it can be merged."
         extensible:
-          title: "Forker-friendly"
-          description: "Clear seams for extension. Add your resource types, custom roles, and domain logic on a solid foundation."
-    privacy:
+          title: "Built on a maintained template"
+          description: "Capstone Studio is built on ModelRails and pulls its updates. The parts that are ours stay ours."
       title: "Privacy Policy"
       intro: "This privacy policy describes how Capstone Studio handles your information. We are committed to protecting your privacy and being transparent about our practices."
       collection:

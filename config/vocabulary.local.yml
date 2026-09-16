@@ -2,5 +2,5 @@
 # subset; the template's defaults in config/vocabulary.yml fill the rest.
 # Nothing upstream will ever change in this file, so freezing it is safe.
 #
-# workspace: { singular: "course", plural: "courses" }
-# project:   { singular: "team",   plural: "teams" }
+workspace: { singular: "course", plural: "courses" }
+project:   { singular: "team",   plural: "teams" }
